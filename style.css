@@ -1,0 +1,91 @@
+/* - Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background:  hsl(212, 45%, 89%) ;
+  font-family: 'Outfit', sans-serif;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.contenr{
+  width: 80%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  margin-bottom: auto;
+  text-align: center;
+  background:  hsl(0, 0%, 100%);
+    border: 4px solid white;
+    border-radius: 19px;
+
+}
+.img-peran{
+  margin: 17px 0;
+  
+  
+  
+}
+.img-qr{
+    width: 92%;
+    border-radius: 12px
+}
+
+h2{
+  color: hsl(218, 44%, 22%);
+  opacity: 0.9;
+  margin: 0px 10px 0 auto;
+}
+p{
+  font-size: 15px;
+  margin-top: 0px;
+  margin: 20px 30px 10px 30px;
+  color:hsl(220, 15%, 55%) ;
+
+}
+@media (min-width: 700px) {
+    
+    .contenr{
+      height: 600px;
+      width: 37%;
+    }
+    h2{
+        margin: 40px 20px 15px 20px;
+        padding: 0 10px;
+    }
+    body{
+      padding-top: 50px;
+    }
+    p{
+      padding: 0 20px;
+    }
+    
+    
+    
+    
+    }
